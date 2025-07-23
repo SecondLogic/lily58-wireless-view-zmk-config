@@ -5,9 +5,44 @@
  */
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        BT_0 {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <1 52 55>;
+        };
+
+        BT_1 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <2 52 55>;
+        };
+
+        BT_2 {
+            bindings = <&bt BT_SEL 2>;
+            key-positions = <3 52 55>;
+        };
+
+        BT_3 {
+            bindings = <&bt BT_SEL 3>;
+            key-positions = <4 52 55>;
+        };
+
+        BT_4 {
+            bindings = <&bt BT_SEL 4>;
+            key-positions = <52 55 5>;
+        };
+
+        BT_Clr {
+            bindings = <&bt BT_CLR>;
+            key-positions = <52 55 11>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
