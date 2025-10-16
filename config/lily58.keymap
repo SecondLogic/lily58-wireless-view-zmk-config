@@ -16,13 +16,13 @@
             bindings = <&bt BT_SEL 0>;
             key-positions = <1 52 0>;
             slow-release;
-            require-prior-idle-ms = <0.5>;
         };
 
         BT_1 {
             bindings = <&bt BT_SEL 1>;
             key-positions = <2 52 0>;
             require-prior-idle-ms = <0.5>;
+            timeout-ms = <0>;
         };
 
         BT_2 {
