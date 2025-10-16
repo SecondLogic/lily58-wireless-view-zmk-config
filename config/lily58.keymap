@@ -14,32 +14,33 @@
 
         BT_0 {
             bindings = <&bt BT_SEL 0>;
-            key-positions = <1 52 55>;
+            key-positions = <1 52 36>;
+            slow-release;
         };
 
         BT_1 {
             bindings = <&bt BT_SEL 1>;
-            key-positions = <2 52 55>;
+            key-positions = <2 52 36>;
         };
 
         BT_2 {
             bindings = <&bt BT_SEL 2>;
-            key-positions = <3 52 55>;
+            key-positions = <3 52 36>;
         };
 
         BT_3 {
             bindings = <&bt BT_SEL 3>;
-            key-positions = <4 52 55>;
+            key-positions = <4 52 36>;
         };
 
         BT_4 {
             bindings = <&bt BT_SEL 4>;
-            key-positions = <52 55 5>;
+            key-positions = <52 5 36>;
         };
 
         BT_Clr {
             bindings = <&bt BT_CLR>;
-            key-positions = <52 55 11>;
+            key-positions = <52 11 36>;
         };
     };
 
