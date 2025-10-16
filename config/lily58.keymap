@@ -15,7 +15,6 @@
         BT_0 {
             bindings = <&bt BT_SEL 0>;
             key-positions = <1 52 0>;
-            slow-release;
         };
 
         BT_1 {
@@ -39,7 +38,7 @@
 
         BT_4 {
             bindings = <&bt BT_SEL 4>;
-            key-positions = <52 5 0>;
+            key-positions = <52 5 24>;
             require-prior-idle-ms = <0.5>;
         };
 
